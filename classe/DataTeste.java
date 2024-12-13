@@ -13,5 +13,8 @@ public class DataTeste {
         d2.ano = 2003;
         
         System.out.println("Você nasceu em: " + d2.dia + "/" + d2.mes + "/" + d2.ano);
+        System.out.println(d1.obterDataFormatada());
+        d1.imprimirDataFormatada();
+        d2.imprimirDataFormatada();
     }
 }

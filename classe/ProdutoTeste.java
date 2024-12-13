@@ -17,6 +17,9 @@ public class ProdutoTeste {
         System.out.println(p1.nome);
         System.out.println(p2.nome);
 
+        var testePreco = p2.precoComDesconto();
+        System.out.println(testePreco);
+
     }
 
 }
