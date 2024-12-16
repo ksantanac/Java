@@ -10,6 +10,7 @@ public class ProdutoTeste {
         // p1.desconto = 0.3;
 
         var p2 = new Produto("Notebook");
+        // Objetos
         // p2.nome = "Notebook";
         p2.preco = 5787.89;
         p2.desconto = 0.25;

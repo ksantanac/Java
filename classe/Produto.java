@@ -20,7 +20,7 @@ public class Produto {
         desconto = descontoInicial;
     };
 
-
+    // Metodos
     double precoComDesconto(){
         return preco - (preco * desconto);
     };
