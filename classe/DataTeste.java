@@ -16,5 +16,19 @@ public class DataTeste {
         System.out.println(d1.obterDataFormatada());
         d1.imprimirDataFormatada();
         d2.imprimirDataFormatada();
+
+        // Desafio Construtor
+
+        // desafio 1
+        Data d3 = new Data();
+        System.out.println("Você nasceu em: " + d3.dia + "/" + d3.mes + "/" + d3.ano);
+
+        // desafio 2
+        Data d4 = new Data();
+        d4.dia = 27;
+        d4.mes = 2;
+        d4.ano = 1983;
+        System.out.println("Você nasceu em: " + d4.dia + "/" + d4.mes + "/" + d4.ano);
+
     }
 }
