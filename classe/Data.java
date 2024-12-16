@@ -22,7 +22,6 @@ public class Data {
     // Metodo
     String obterDataFormatada(){
         return String.format("%d/%d/%d", dia, mes, ano);
-//        return dia + "/" + mes + "/" + ano;
     };
 
     void imprimirDataFormatada(){
