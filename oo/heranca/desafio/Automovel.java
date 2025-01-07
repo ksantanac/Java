@@ -12,7 +12,7 @@ public class Automovel {
         System.out.println("Velocidade Ferrari: " + ferrari.velocidade);
 
         // Civic
-        Civic civic = new Civic();
+        Civic civic = new Civic(300);
 
         System.out.println("Velocidade Civic: " + civic.velocidade);
         civic.acelerar();
