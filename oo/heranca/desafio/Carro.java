@@ -18,8 +18,6 @@ public class Carro {
         }else {
             velocidade += delta;
         }
-
-
     }
 
     void frear() {
