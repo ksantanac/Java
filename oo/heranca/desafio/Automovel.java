@@ -10,6 +10,7 @@ public class Automovel {
         
         System.out.println("Velocidade Ferrari: " + ferrari.velocidade);
         ferrari.acelerar();
+        System.out.println(ferrari.velocidadeDoAr());
         System.out.println("Velocidade Ferrari: " + ferrari.velocidade);
 
         // Civic
