@@ -6,6 +6,7 @@ public class Automovel {
 
         // Ferrari
         Ferrari ferrari = new Ferrari();
+        ferrari.ligarTurbo();
         
         System.out.println("Velocidade Ferrari: " + ferrari.velocidade);
         ferrari.acelerar();
