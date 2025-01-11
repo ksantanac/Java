@@ -8,7 +8,8 @@ public class OperadorUnario {
 
         UnaryOperator<Integer> maisDois = n -> n + 2;
         UnaryOperator<Integer> vezesDois = n -> n * 2;
-        UnaryOperator<Integer> aoQuadrado = n -> n * n;
+        UnaryOperator<Integer> aoQuadrado
+                = n -> n * n;
 
         int resultado1 = maisDois
                 .andThen(vezesDois)
