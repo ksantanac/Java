@@ -41,5 +41,8 @@ public class CriandoStreams {
         // Cria uma Stream paralela a partir da lista e imprime os elementos
         // (a ordem de saída pode ser diferente devido à execução paralela)
         outrasLangs.parallelStream().forEach(print);
+
+        // Stream.generate(() -> "a").forEach(print);
+        // Stream.iterate(0, n -> n + 1).forEach(println);
     }
 }
