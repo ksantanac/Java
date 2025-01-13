@@ -12,7 +12,8 @@ public class DesafioMap {
         List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         UnaryOperator<String> inverter = s -> new StringBuilder(s).reverse().toString();
-        Function<String, Integer> reverter = r -> Integer.parseInt(r, 2);
+        Function<String, Integer> reverter = r -> Integer.parseInt(r, 2
+        );
 
         nums.stream()
                 .map(Integer::toBinaryString)
